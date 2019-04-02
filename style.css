@@ -3,6 +3,13 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline
+}
+
 .barhaut{
     display: flex;
     height: 50%;
