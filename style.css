@@ -10,6 +10,19 @@ a:hover{
     text-decoration: underline
 }
 
+button{
+    background-color:#4285F4;
+	color:white;
+   font-weight:bold;
+}
+
+button.gris{
+    background-color:#f8f8f8;
+    color: black;
+    height: 36px;
+    width: 150px;
+}
+
 .barhaut{
     display: flex;
     height: 50%;
@@ -31,11 +44,16 @@ a:hover{
     margin-top: 18%;
 }
 .btnrecherche {
+    margin: 15px;
     flex-direction: row;
     justify-content: center;
 
 }
-
+.saisie{
+    height: 34px;
+    width: 554;
+    border-radius: 5px;
+}
 .footer1 {
     display: flex;
     justify-content: flex-start;
