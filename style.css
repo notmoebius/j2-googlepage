@@ -37,7 +37,15 @@ body {
 
 .footer2 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-between;
     align-items: flex-end;
+}
+.footer2g {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch
+}
+.btnhautfoot {
+    margin: 5px;
 }
